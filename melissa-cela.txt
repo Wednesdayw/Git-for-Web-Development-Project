@@ -1,0 +1,69 @@
+ 1. What is Semantic HTML?
+It helps to reinforce the meaning of content on a web page and helps with accessibility and search engines to help determine the web content more easily. 
+2. What is HTML used for? 
+It’s used to create electronic documents (pages) that are displayed on the world wide web.
+3. What is an attribute and where do we put it? 
+It defines characteristics or properties of an element and should be added to the start tag.
+4. What is the h1 tag used for? How many times should I use it on a page?
+Makes <h1></h1> the most important title on the page, should only be used once.
+5. Name two tags that have required attributes
+ Img & href
+6. What do we put in the head of our HTML document? 
+Metadata, define document, character sets, styles, scripts etc.
+7. What is an id? 
+An id attribute specifies a single unique attribute for an element. 
+8. What elements can I add an id to? Any
+    9. How many times can I use the same id on a page? once
+    10. What is a class? An attribute that specifies a name for an element
+    11. What elements can I add a class to? Any
+    12. How many times can I use the same class on a page? No limit
+    13. How do I get my link to open in a new tab? target _blank
+    14. What is the alt attribute in the image tag used for? It’s alternate text for an image, so if someone can’t see the image it will provide a description. 
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div? A div is to divide sections on the page whereas a section is used to separate each different section in the page. Section is semantic whereas div is not. 
+    17. What is CSS used for? Styling and presentation
+    18. How do we select an element? Example - every h2 on the page h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. Class is more than one element whereas id can only be given to one element. class=”fun” id=”bottom”
+    20. How do we select classes in CSS? .class
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful? It selects all elements that are a direct child of the specified element. When you want both parent child to have the same elements. 
+    23. How do you select all links within a div with the class of sidebar? Div.sidebar a:link
+    24. What is a pseudo selector? It specifies a certain state in the selected element. :hover for example. 
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to change everything to CAPITALS? lowercase? Capitalize? Text-transform: CAPITALS, text-transform: lowercase, text-transform: capitalize. 
+    28. How do I add a 1px border around my div that is dotted and black? div {
+  border: 1px;
+  border-style: dotted;
+}
+
+    29. How do I select everything on the page? Ctrl-A or command-A
+    30. How do I write a comment in CSS? /* */
+    31. How do I find out what file I am in, when I am using the command line?  It says it within the terminal before the $ symbol
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm<file>, It removes it permanently  
+    34. Why should I use version control? To keep track of changes and keep the team aware of all changes.
+    35. How often should I commit to github? About every 20 minutes.
+    36. What is the command we would use to push our repo up to github?git push -u origin branch-name 
+    37. Walk me through Lambda's git flow. 
+	-Create my own version of repo by forking it. 
+	-Make sure my forked version is correct with my username
+	-Set my TL as a collaborator on my forked repo
+	-Clone my repo
+	-Go into the file via terminal that I’d like to clone my forked repo
+	-Use the git clone command
+	-cd into that new repo
+	-Create a branch with my first and last name (git checkout -b firstname-lastname)
+	-add changes (git add .)
+	-commit those changes (git commit -m “add a message”)
+	-Push the changes back up to Github repo (git push -u origin branch-name) (my branch name) 
+	-Go back to my forked project repo on github
+	-Make sure I’m on the forked copy
+	-Click on branch:master and select my branch
+	- Click new pull request
+	-At the pull request page make sure to click the dropdown button that says base repository and change it to my forked repo instead of the original one. 
+	- Add TL to the reviewers 
+	-Submit the pull request
+	-Don’t merge my own pull request
+
+
